@@ -1,0 +1,28 @@
+body {
+    background-image:url(/imagenes/333580.jpg);
+    background-size: cover;
+    background-color:wheat;
+}
+
+* {
+    font-family: 'Silkscreen', cursive;
+}
+
+h1 {
+    color:violet;
+    font-size: 50px;
+    text-align: center;
+}
+
+.bals {
+    color: black;
+}
+
+a {
+    color:aqua;
+    font-family: 'Lucida Sans';
+}
+
+.mb-3 {
+    color: aqua;
+}
