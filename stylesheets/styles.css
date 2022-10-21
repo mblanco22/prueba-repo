@@ -1,5 +1,5 @@
 body {
-    background-image:url(/imagenes/333580.jpg);
+    background-image:url(/imagenes/car-wheel-vehicle-tire-automotive-lighting-blue-2065063-wallhere.com.jpg);
     background-size: cover;
     background-color:wheat;
 }
@@ -10,8 +10,12 @@ body {
 
 h1 {
     color:violet;
-    font-size: 50px;
+    font-size: 100px;
     text-align: center;
+}
+
+h2 {
+    color: white;
 }
 
 .bals {
@@ -19,7 +23,7 @@ h1 {
 }
 
 a {
-    color:aqua;
+    color:black;
     font-family: 'Lucida Sans';
 }
 
