@@ -25,31 +25,71 @@
     </header>
 
     <main>
+        <form action="formulario">
+    <fieldset>
+        <legend>Formulario de contacto</legend>
+                <div>
+                    <label class="formulario" for="nombre">NOMBRE</label>
+                    <input class="formulario" type="text" name="nombre" placeholder="nombre">
+                </div>  
+                <br>
+                <div>
+                    <label class="formulario" for="apellido">APELLIDO</label>
+                    <input class="formulario" type="text" name="apellido" placeholder="apellido" required>
+                </div>
+                <br>
+                <div>
+                    <label class="formulario" for="email">Escribe tu mail</label>
+                    <input class="formulario" type="email" name="email"  placeholder="email" required>
+                </div> 
+                <br>
+                <div>
+                    <label class="formulario" for="nacimiento">Fecha de nacimiento</label>
+                    <input class="formulario" type="date">
+                </div>
+                <br>
+                <div>
+                    <label class="formulario" for="pais">Selecciona tu Nacionalidad</label>
+                    <select  name="pais" id="">
+                        <option value="arg">ARGENTINA</option>
+                        <option value="uru">URUGUAY</option>
+                        <option value="ch">CHILE</option>
+                        <option value="pr">PARAGUAY</option>
+                        <option value="br">BRASIL</option>
+                        <option value="mx">MEXICO</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label class="formulario" for="genero">Género</label>
+                    <select  name="genero" id="">
+                    <option value="male">HOMBRE</option>
+                    <option value="female">MUJER</option>
+                    <option value="otro">OTRO</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label class="formulario" for="comentario">Dejanos tu mensaje</label><br>
+                    <textarea name="comentario" id="" cols="30" rows="10" placeholder="Escriba aqui"></textarea>
+                </div>
+                <div> <a class="formulario" >Acepta terminos y condiciones</a>
+                    <input type="checkbox" name="acepta" value="1">
+                </div>
+            
+    
+    <br><br>
+                <div>
+                    <input type="submit" value="Enviar Datos">
+                    <input type="reset" value="Borrar Datos">
+                </div>
+    </fieldset>
+        </form>
 
     </main>
-
-    <hr>
-     
-        <article>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/V1AtGZ2nQWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         </article>
-         
-        <footer>
-         <hr>
-        <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Correo</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
-
+    <footer>
+        <h4>Práctica de formularios</h4>
     </footer>
-
+    
 </body>
 </html>
