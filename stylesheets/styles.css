@@ -12,11 +12,17 @@ h1 {
     color:violet;
     font-size: 100px;
     text-align: center;
-    transform:rotate(10%); 
 }
 
 h2 {
     color: white;
+}
+
+.centrado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 .bals {
