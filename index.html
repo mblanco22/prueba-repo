@@ -10,79 +10,184 @@
     <link rel="preconnect" href="./https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7187282807.js" crossorigin="anonymous"></script>
-    <!-- CSS only -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Proycto de prueba</title>
     
     
 </head>
-<body class="body">
-    <header>
-<h1>La cueva</h1>
-<h2>Este es el subtitulo del proyecto de prueba</h2>
-<nav>
-    <ul class="bals">
-        <button><a href="./index.html">Inicio</a></button>
-        <button><a href="./abouts.html">Sobre Nosotros</a></button>
-        <button><a href="./abouts.html">Contacto</a></button>
-    </ul>
-</nav>
-    </header>
+<body>
+  <header class="p-3 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+        </a>
 
-    <hr>
-    <div class="centrado">
-     <div class="d-block w-50">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="/index.html" class="nav-link px-2 text-white">Inicio</a></li>
+          <li><a href="/abouts.html" class="nav-link px-2 text-white">Sobre Nosotros</a></li>
+          <li><a href="/contact.html" class="nav-link px-2 text-white">Contactos</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2">Login</button>
+          <button type="button" class="btn btn-warning">Sign-up</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+  <div>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/imagenes/936188.jpg" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+  
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Marshmello</h1>
+              <p>---</p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.instagram.com/marshmello/">Instagram</a></p>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./imagenes/936188.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Marshmello</h5>
-                  <a class="redessociales" href="https://www.instagram.com/marshmello/"><p>Instagram</p></a>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./imagenes/-1x-1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Deadmau5</h5>
-                  <a class="redessociales" href="https://www.instagram.com/deadmau5/"><p>Instagram</p></a>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./imagenes/DJSFROMMARS-CultureClubRevelin-30062017-9079.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>DJs from Mars</h5>
-                  <a class="redessociales" href="https://www.instagram.com/djsfrommarsofficial/"><p>Instagram</p></a>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-     </div>
-    </div>    
-    <br>
-        <article>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/NAcau8z9rMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         </article>
-         <hr>
-            <footer>
-            <h4>Matias Blanco</h4>
-            <div>
-                 <a class="redessociales" href="https://www.instagram.com/maattwhite/"><p><i class="fa-brands fa-instagram"></i>Instagram</p></a>
+        </div>
+        <div class="carousel-item">
+          <img src="/imagenes/-1x-1.jpg" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+  
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Deadmau5</h1>
+              <p>---</p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.instagram.com/deadmau5/">Instagram</a></p>
             </div>
-            
-        </footer>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/imagenes/DJSFROMMARS-CultureClubRevelin-30062017-9079.jpg" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+  
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>DJs from Mars</h1>
+              <p>---</p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.instagram.com/djsfrommarsofficial/">Instagram</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  
+    <div class="container marketing">
+  
+      <div class="row">
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          
+          <div class="footer-violet">  
+          <h2  class="fw-normal">TITULO</h2>
+          <p  >CAMBIAR</p>
+          <p><a class="btn btn-secondary" href="#">BOTON &raquo;</a></p>
+          </div>
+
+        </div>
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          
+          <div class="footer-violet">  
+          <h2 class="fw-normal">TITUTLO 2</h2>
+          <p>CAMBIAR</p>
+          <p><a class="btn btn-secondary" href="#">BOTON &raquo;</a></p>
+          </div>
+
+        </div>
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          
+          <div class="footer-violet">  
+          <h2 class="fw-normal">TITULO 3</h2>
+          <p>CAMBIAR</p>
+          <p><a class="btn btn-secondary" href="#">BOTON &raquo;</a></p>
+          </div>
+
+        </div>
+      </div>
+  
+  
+      <!-- START THE FEATURETTES -->
+  
+      <hr class="featurette-divider">
+  <!--
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="/imagenes/car-wheel-vehicle-tire-automotive-lighting-blue-2065063-wallhere.com.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">pie de imagenes</text>
+  
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+   
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+  
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+  
+        </div>
+      </div>
+  -->
+      <hr class="featurette-divider">
+  
+      <!-- /END THE FEATURETTES -->
+  
+    </div><!-- /.container -->
+  
+  
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a class="footer-violet" href="#">Volver a arriva</a></p>
+      <p class="footer-violet" >&copy; 2022 No hay logo &middot; <a class="footer-violet" href="#">Privacy</a> &middot; <a class="footer-violet" href="#">Terms</a></p>
+    </footer>
+
+  </main>
+
         <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
