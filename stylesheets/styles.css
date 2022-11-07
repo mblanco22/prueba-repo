@@ -1,10 +1,15 @@
-.body {
-    background-image:url(/imagenes/car-wheel-vehicle-tire-automotive-lighting-blue-2065063-wallhere.com.jpg);
-    background: size 10px;
-    background-color:wheat;
-    padding-top: 0rem;
+.contenedor {
+  background-color: blueviolet;
+    /*background-image:url(/imagenes/car-wheel-vehicle-tire-automotive-lighting-blue-2065063-wallhere.com.jpg);*/
+    /*background: size 10px;*/
+    /*background-color: khaki;*/
+    /*padding-top: 0rem;
     padding-bottom: 0rem;
-    color: #5a5a5a;
+    color: #5a5a5a;*/
+}
+
+.contenedor-img-circulos {
+  background-color: aqua;
 }
 
 .form-control-dark {
