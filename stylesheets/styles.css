@@ -100,11 +100,11 @@
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 42rem;
-    /*display: flex;
+    height: 32%;
+    display: flex;
     flex-direction:column;
     flex-wrap: nowrap;
-    justify-content: space-around;*/
+    justify-content: space-around;
   }
   
   

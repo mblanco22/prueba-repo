@@ -1,9 +1,9 @@
-let nombre = "Matias";
+/*let nombre = "Matias";*/
 let apellido = "Blanco";
 let edad = "27 años";
 let mascotas = "Tengo 2 perros";
 
-let nombreApellido = nombre + " " + apellido;
+/*let nombreApellido = nombre + " " + apellido;*/
 
 /*console.log(nombreApellido)
 
@@ -101,3 +101,47 @@ if (entryNumber > 10) {
     console.log("El valor ingresado no es un numero")
 
 }*/
+
+
+/*---- EJEMPLOS DE FUNCION ----*/
+
+/*let saludar = function (nombre, apellido, serieFavorita) {
+    return nombre + " " + apellido + " " + "Tu serie favorita es " + serieFavorita    
+}
+
+console.log(saludar("Matias", "Blanco", "Mi serie"))*/
+
+/*function datos(nombre, apellido,serie){
+    alert("Hola " + nombre + " " + apellido + ". Tu serie favorita es" + serie)
+}
+
+console.log(datos("Matias", "Blanco"," Mi serie"))*/
+
+/* tambn puede ser "let nombre = function(nombre)" */
+/*let nombre = (nombre) => {   
+    return nombre.length;
+}
+
+let longitudNombre = nombre("Matias");
+
+console.log(longitudNombre)*/
+
+
+/*function sumarEdad(edad) {
+let num = 1;
+return edad + num;
+}*/
+/*
+let num = 1;
+function sumarEdad(edad) {
+    return edad + num;
+    }
+    */
+
+
+    /*let etiqueta = document.querySelector("#idex_li")
+
+    etiqueta.style.color = "khaki"
+
+    console.log(etiqueta.innerText)
+    etiqueta.innerText*/
