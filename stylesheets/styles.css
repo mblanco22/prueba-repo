@@ -11,6 +11,10 @@
     color: #5a5a5a;*/
 }
 
+.logoautosymusica {
+  src: url(/imagenes/logoautosymusica.jpg);
+}
+
 .contenedor-img-circulos {
   background-color: rgb(255, 0, 212);
   background-image: url('/imagenes/333580.jpg');
