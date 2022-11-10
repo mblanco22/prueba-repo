@@ -1,6 +1,13 @@
 /* Importación de fuentes de google fonts */ 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
+.contenedorfondocontacto {
+  /*background-color: rgb(0, 0, 0);*/
+  background-image:url("../imagenes/290693.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .todo-formulario{
   height: 100%;
@@ -128,7 +135,7 @@ span{
   border: 1px solid #97d848;
 }
 
-a
+
 .formulario textarea:focus{
   outline:0;
   border: 1px solid #97d848;
