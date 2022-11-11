@@ -1,7 +1,8 @@
-/*let nombre = "Matias";*/
+/*let nombre = "Matias";
 let apellido = "Blanco";
 let edad = "27 años";
 let mascotas = "Tengo 2 perros";
+*/
 
 /*let nombreApellido = nombre + " " + apellido;*/
 
@@ -145,3 +146,73 @@ function sumarEdad(edad) {
 
     console.log(etiqueta.innerText)
     etiqueta.innerText*/
+/*
+    let i = 100;
+
+    while (i > 0) {
+
+    console.log("Solo quedan " + i + " pasos por caminar");
+
+    i = i - 1;
+    if(i == 0) {
+    console.log("Llegaste");} 
+    }
+*/
+/*
+    let i = 100;
+
+    while (i > 0) {
+      console.log("Sólo quedan " + i + " pasos por caminar");
+      i = i - 1; 
+      if(i == 0) {
+        console.log("Llegaste!");
+        alert("Llegaste");
+      }
+    }
+*/
+/*
+let numeros = [
+    [2, 4], 
+    [5, 10]
+];
+
+let resultadoMulti;
+
+let multiplicarYsumarArray = function () {
+    let resultadoArrayUno = numeros[0][0]*numeros[0][1];
+    let resultadoArrayDos = numeros[1][0]*numeros[1][1];
+    resultadoMulti = resultadoArrayUno + resultadoArrayDos;
+    return resultadoMulti;
+}
+
+console.log(multiplicarYsumarArray())
+*/
+/*
+let objetos = ["Varita", "Libro", "Lechuza", "Caldero"];
+
+objetos.forEach(objeto => {
+    console.log(objeto);
+});
+*/
+
+let objetos = ["Varita", "Libro", "Lechuza", "Caldero"];
+
+objetos.forEach(objeto => {
+    console.log(objeto);
+});
+
+
+/*const numeros = [1, 2, 3, 4, 5];
+//La función parámetro generalmente es una función flecha sin cuerpo
+
+const encontrado = numeros.find(elemento => elemento > 3);
+
+console.log(encontrado)*/
+
+let resultados =  numeros = [2, 5, 6, 18, 201];
+
+numeros.filter(n => {
+return n > 5
+});
+
+console.log(resultados)
