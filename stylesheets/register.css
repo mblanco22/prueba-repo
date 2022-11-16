@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "open sans";
+    font-family: 'open sans';
 }
 
 /*--IMAGEN-DE-FONDO--*/
@@ -19,7 +19,7 @@ body{
 }
 
 /*--FORMULARIO--*/
-.form{
+.formularioregister{
     width: 450px;
     padding: 30px;
     margin: auto;
@@ -29,13 +29,13 @@ body{
 }
 
 /*--TITULO--*/
-.titulo{
+.tituloregister{
     color: #1d4169;
     margin-bottom: 20px;
 }
 
 /*--CAJAS-DE-DATOS--*/
-.cajas{
+.cajasregister{
     width: 100%;
     padding: 15px;
     margin-bottom: 20px;
@@ -45,7 +45,7 @@ body{
     transition: all .5s ease;
 }
 
-.cajas:hover, .cajas:focus{
+.cajasregister:hover, .cajasregister:focus{
     border-left: 10px solid #1a4c7e;
 }
 
@@ -66,7 +66,7 @@ body{
 }
 
 /*--BOTON-DE-REGISTRARSE--*/
-.btn{
+.btnregister{
     width: 100%;
     padding: 15px;
     border-radius: 2px;
@@ -79,7 +79,7 @@ body{
     transition: all .5s ease;
 }
 
-.btn:hover{
+.btnregister:hover{
     background: #133043;
 }
 
