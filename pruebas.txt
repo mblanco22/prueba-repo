@@ -69,3 +69,28 @@
             </div>
             </footer>
           </div>  
+
+
+-------------------------------- FORMULARIO REGISTER --------------------------------
+
+    <form class="formularioregister">
+        
+        
+        <h1 class="tituloregister">Registrarse</h1>
+        
+        
+        <input class="cajasregister" type="text" placeholder="Nombre" required maxlength="30">
+        <input class="cajasregister" type="text" placeholder="Apellido" required maxlength="30">
+        <input class="cajasregister" type="email" placeholder="Email" required maxlength="30">
+        <input class="cajasregister" type="password" placeholder="Password" required maxlength="30">
+        
+        
+        <p class="termino1"><input type="checkbox">  Estoy de acuerdo con <a class="termino2" href="">Terminos y Condiciones</a></p>
+        
+        
+        <input type="submit" class="btnregister" value="REGISTRAR">
+        
+        
+        <p class="tengo-cuenta"><a href="" class="tengo-cuenta">Ya tengo cuenta</a></p>
+        
+    </form>
