@@ -3,16 +3,18 @@
 
 .contenedorfondocontacto {
   /*background-color: rgb(0, 0, 0);*/
-  background-image:url("../imagenes/290693.2.jpg");
-  background-size: cover;
+  background-image:url("../imagenes/fantasy-art-night-artwork-fan-art-futuristic-city-cyberpunk-1197218-wallhere.com.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 
 .todo-formulario{
   height: 100%;
   font-family: 'Noto Sans', sans-serif;
-  background:url("/imagenes/290693.2.jpg");
+  /*background:url("/imagenes/290693.2.jpg");*/
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -25,13 +27,13 @@
   border-radius: 10px;  
   padding-top: 30px;
   padding-bottom: 20px;  
-  background-color: #fbfbfb; 
-  padding-left: 30px; 
+  background-color: #ffffff3d; 
+  padding-left: 20px; 
 }
 
 
 input{
-  background-color: #fbfbfb; 
+  background-color: #fbfbfbc0; 
   width: 408px; 
   height: 40px; 
   border-radius: 5px;  
@@ -45,7 +47,7 @@ input{
 
 
 textarea{
-  background-color: #fbfbfb; 
+  background-color: #fbfbfbc0; 
   width: 405px; 
   height: 150px; 
   border-radius: 5px;  
@@ -72,7 +74,7 @@ label{
   margin-bottom: 20px; 
   margin-top: 10px;   
   text-transform: uppercase;
-  background-color: #2e2d2e; 
+  background-color: #2e2d2e41; 
   border-color: #000000; 
   border-style: solid; 
   border-radius: 10px;  
@@ -82,7 +84,9 @@ label{
 
 
 button p{
-  color: #fff; 
+  color: #ff9900;
+  padding-top: 7px;
+  text-shadow: 0 0 5px black, 0 0 15px black, 0 0 30px black, 0 0 50px black; 
 }
 
 
@@ -92,8 +96,15 @@ span{
 
 
 .aviso{
-  font-size: 13px;  
-  color: #0e0e0e;  
+  font-size: 15px;  
+  color: #ff9900;
+  text-shadow: 0 0 5px black, 0 0 15px black, 0 0 30px black, 0 0 50px black;
+}
+
+.obligatorio {
+  font-size: 15px;  
+  color: #ff9900;
+  text-shadow: 0 0 5px black, 0 0 15px black, 0 0 30px black, 0 0 50px black;
 }
 
 
@@ -101,20 +112,23 @@ span{
   font-size: 39px;  
   text-align: letf; 
   padding-bottom: 20px; 
-  color: #000000;
+  color: #ff9900;
+  text-shadow: 0 0 5px black, 0 0 15px black, 0 0 30px black, 0 0 50px black; 
 }
 
 
 .contacto-h3{
   font-size: 16px; 
   padding-bottom: 30px;
-  color: #0e0e0e;   
+  color: #ff9900;
+  text-shadow: 0 0 5px black, 0 0 15px black, 0 0 30px black, 0 0 50px black;    
 }
 
 
 .parrafo-p{
   font-size: 14px; 
-  color: #0e0e0e; 
+  color: #ff9900;
+  text-shadow: 0 0 5px black, 0 0 15px black, 0 0 30px black, 0 0 50px black; 
 }
 
 
