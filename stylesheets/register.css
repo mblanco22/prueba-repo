@@ -9,88 +9,156 @@
 }
 
 /*--IMAGEN-DE-FONDO--*/
-body{
+/*body{
     background-image: url(../imagenes/blue-light-purple-entertainment-Visual-effect-lighting-violet-2066625-wallhere.com.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     font-size: 15px;
-}
+}*/
 
-/*--FORMULARIO--*/
-.formularioregister{
-    width: 450px;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    background: rgba(15, 50, 72, 0.3);
-    border-radius: 5px;
-}
-
-/*--TITULO--*/
-.tituloregister{
-    color: #1d4169;
-    margin-bottom: 20px;
-}
-
-/*--CAJAS-DE-DATOS--*/
-.cajasregister{
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 2px;
-    border: none;
-    border-left: 10px solid #d9e4ea;
-    transition: all .5s ease;
-}
-
-.cajasregister:hover, .cajasregister:focus{
-    border-left: 10px solid #1a4c7e;
-}
-
-/*--TERMINOS-Y-CONDICIONES--*/
-.termino1{
-    text-align: center;
-    color: #3b3b3b;
-}
-
-.termino2{
-    color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.termino2:hover{
-    color: #dbdbdb;
-}
-
-/*--BOTON-DE-REGISTRARSE--*/
-.btnregister{
-    width: 100%;
-    padding: 15px;
-    border-radius: 2px;
-    border: none;
-    margin: 20px 0;
+/* ---- GENERALES ---- */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(../imagenes/blue-light-purple-entertainment-Visual-effect-lighting-violet-2066625-wallhere.com.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     font-size: 15px;
-    background: #225677;
-    color: white;
-    cursor: pointer;
-    transition: all .5s ease;
-}
-
-.btnregister:hover{
-    background: #133043;
-}
-
-/*--YA-TENGO-CUENTA--*/
-.tengo-cuenta{
-    text-align: center;
-    color: #000000;
+    /*margin: 0;
+    background: var(--cfondo);
+    font-family: sans-serif;*/
+  }
+  
+  .container {
+    /* border: 3px solid red; */
+    max-width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  :root {
+    /*--cfondo: rgb(207, 211, 212);*/
+    --cfondoForm1: rgba(156, 35, 91, 0.39);
+    --cfondoForm2: rgba(183, 0, 255, 0.486);
+    --cnegro: hsla(0, 0%, 0%, 0.700);
+    --ctexto: violet;
+    --ctextoDark: rgba(21, 38, 187, 0.582);
+    --cblanco: white;
+    --error: rgb(0, 0, 0);
+  }
+  
+  [type="checkbox"] {
+    display: none;
+  }
+  
+  [type="checkbox"]:checked + label::before {
+    background: var(--cnegro);
+    transition: 0.5s;
+    transform: rotate(180deg);
+  }
+  
+  [type="checkbox"]:checked + label {
+    color: var(--cnegro);
+  }
+  
+  /* ---- FORMULARIO ---- */
+  
+  .form {
+    /* border: 3px solid green; */
+    border-top: 2px solid var(--cnegro);
+    max-width: 400px;
+    padding: 30px 50px;
+    margin: auto;
+    margin-top: 10px;
+    background: linear-gradient(
+      0deg,
+      var(--cfondoForm1) 0%,
+      var(--cfondoForm2) 50%
+    );
+  }
+  
+  .form-titulo {
     font-weight: bold;
-    text-decoration: none;
-}
-
-.tengo-cuenta:hover{
-    color: #dbdbdb;
-}
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    color: var(--ctexto);
+    text-shadow: 0 0 5px black, 0 0 15px black, 0 0 30px black, 0 0 50px black;
+  }
+  
+  .form-input {
+    margin-bottom: 30px;
+  }
+  
+  .form-input label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: var(--ctexto);
+  }
+  
+  .form-input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid var(--ctexto);
+  }
+  
+  .form-input input:focus + label {
+    font-weight: bold;
+    color: var(--cnegro);
+  }
+  
+  .form-termsAndConditions {
+    margin-left: 15px;
+    position: relative;
+    color: var(--ctexto);
+    font-size: 13px;
+  }
+  
+  .form-termsAndConditions label::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border: 1px solid var(--cnegro);
+    position: absolute;
+    left: -14px;
+  }
+  
+  .form-boton input {
+    background: var(--cnegro);
+    color: var(--cblanco);
+    padding: 10px 50px;
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border: none;
+  }
+  
+  .form-boton input:hover {
+    background: var(--ctextoDark);
+    transition: 0.5s;
+  }
+  
+  .mensajeError {
+    color: var(--error);
+    margin-top: 0px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .mensajeCorrecto {
+    text-align: center;
+    font-weight: bold;
+  }
