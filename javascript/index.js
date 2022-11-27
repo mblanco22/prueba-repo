@@ -209,6 +209,7 @@ const encontrado = numeros.find(elemento => elemento > 3);
 
 console.log(encontrado)*/
 
+/*
 let resultados =  numeros = [2, 5, 6, 18, 201];
 
 numeros.filter(n => {
@@ -216,3 +217,31 @@ return n > 5
 });
 
 console.log(resultados)
+*/
+
+const sidebar = document.querySelector('.sidebar');
+const navItems = document.querySelectorAll('nav .nav-item');
+const toggle = document.querySelector('.sidebar .toggle');
+
+toggle.addEventListener('click', () => {
+
+    if (sidebar.className === 'sidebar')
+        sidebar.classList.add('open');
+    else
+        sidebar.classList.remove('open');
+
+});
+
+navItems.forEach(navItem => {
+
+    navItem.addEventListener('click', () => {
+
+        navItems.forEach(navItem => {
+            navItem.classList.remove('active');
+        });
+
+        navItem.classList.add('active');
+
+    });
+
+});
