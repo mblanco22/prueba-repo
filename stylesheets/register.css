@@ -36,10 +36,10 @@
   }
   
   .container {
-    /* border: 3px solid red; */
-    max-width: 90%;
+   /* border: 3px solid red; */
+    max-width: 100%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 0px;
   }
   
   :root {
