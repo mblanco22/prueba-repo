@@ -94,3 +94,24 @@
         <p class="tengo-cuenta"><a href="" class="tengo-cuenta">Ya tengo cuenta</a></p>
         
     </form>
+
+
+              <form class="form-register" action="" method="POST" id="form">
+            <div class="form-register">
+                <h1 class="h1-form">Registro</h1>
+                <div class="grupo">
+                    <input class="input-register" type="text" name="" id="name" ><span class="barra"></span>
+                    <label class="label-register" for="">Nombre</label>
+                </div>
+                <div class="grupo">
+                    <input class="input-register" type="email" name="" id="email" ><span class="barra"></span>
+                    <label class="label-register" for="">Email</label>
+                </div>
+                <div class="grupo">
+                    <input class="input-register" type="password" name="" id="password" ><span class="barra"></span>
+                    <label class="label-register" for="">Password</label>
+                </div>
+                
+                <button class="button-register" type="submit">Suscribirte</button>
+                <p class="warnings" id="warnings"></p>
+        </form>

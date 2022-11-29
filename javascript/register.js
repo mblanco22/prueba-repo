@@ -71,5 +71,3 @@ function enviarFormulario() {
   form.reset();
   form.lastElementChild.innerHTML = "Enviado !!";
 }
-
-console.log(listInputs);
